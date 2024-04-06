@@ -1,0 +1,47 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/1- Performance vs Data Safety/Client Performance Test/Client/Client/bin/Debug/net8.0
+/1- Performance vs Data Safety/Client Performance Test/Client/Client/obj
+/1- Performance vs Data Safety/Client Performance Test/Client/.vs
+/1- Performance vs Data Safety/Data Safety Example/Application/.vs
+/1- Performance vs Data Safety/Data Safety Example/Application/Api/Api/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Api/Api/obj
+/1- Performance vs Data Safety/Performance Example/Application/.vs
+/1- Performance vs Data Safety/Performance Example/Application/Api/Api/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Api/Api/obj
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/Caching.Redis/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/Caching.Redis/obj
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/Database.SqlServer/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/Database.SqlServer/obj
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/Logs.Serilog/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/Logs.Serilog/obj
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/MessageQueue.RabbitMQ/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Infrastructures/MessageQueue.RabbitMQ/obj
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.Core/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.Core/obj
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.DomainServices/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.DomainServices/obj
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.Interfaces/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.Interfaces/obj
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.UseCases/bin/Debug/net8.0
+/1- Performance vs Data Safety/Performance Example/Application/Domain/Domain.UseCases/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.Core/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.Core/obj/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.Core/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.DomainServices/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.DomainServices/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.Interfaces/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.Interfaces/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.UseCases/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Domain/Domain.UseCases/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/Caching.Redis/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/Caching.Redis/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/Database.SqlServer/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/Database.SqlServer/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/Logs.Serilog/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/Logs.Serilog/obj
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/MessageQueue.RabbitMQ/bin/Debug/net8.0
+/1- Performance vs Data Safety/Data Safety Example/Application/Infrastructures/MessageQueue.RabbitMQ/obj
