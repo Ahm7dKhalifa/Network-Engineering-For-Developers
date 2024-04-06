@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Domain.Core\Domain.Core.csproj" />
+    <ProjectReference Include="..\..\Domain\Domain.DomainServices\Domain.DomainServices.csproj" />
+    <ProjectReference Include="..\..\Domain\Domain.Interfaces\Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Domain\Domain.UseCases\Domain.UseCases.csproj" />
+    <ProjectReference Include="..\..\Infrastructures\Caching.Redis\Caching.Redis.csproj" />
+    <ProjectReference Include="..\..\Infrastructures\Database.SqlServer\Database.SqlServer.csproj" />
+    <ProjectReference Include="..\..\Infrastructures\Logs.Serilog\Logs.Serilog.csproj" />
+    <ProjectReference Include="..\..\Infrastructures\MessageQueue.RabbitMQ\MessageQueue.RabbitMQ.csproj" />
+  </ItemGroup>
+
+</Project>
