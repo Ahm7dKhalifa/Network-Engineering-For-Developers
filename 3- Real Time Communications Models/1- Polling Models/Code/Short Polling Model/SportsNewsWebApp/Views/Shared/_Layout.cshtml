@@ -6,15 +6,16 @@
     <title>@ViewData["Title"] - Sports News Web Application</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/SportsNewsWebApp.styles.css" asp-append-version="true" />s
+    <link rel="stylesheet" href="~/SportsNewsWebApp.styles.css" asp-append-version="true" />
     <link href="~/css/font-awesome/css/all.min.css" rel="stylesheet" />
     <style>
         .toast {
             background-color: #f8f9fa; /* Light background */
-            border-left: 5px solid red; /* Red left border to indicate importance */
+            border-left: 5px solid green; /* green left border to indicate importance */
             font-size: 1.1em; /* Larger font size */
             padding: 10px;
-            width: 350px; /* Increased width */
+            width: 500px; /* Increased width */
+            height : 200px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -56,9 +57,6 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -72,7 +70,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - SportsNewsWebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - SportsNewsWebApp
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
