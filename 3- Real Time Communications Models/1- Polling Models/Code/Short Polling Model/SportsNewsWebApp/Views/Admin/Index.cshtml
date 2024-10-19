@@ -5,11 +5,62 @@
 
 <h1>Admin Panel</h1>
 
-<form method="post" asp-controller="Notifications" asp-action="SendNotification">
-    <div class="form-group">
-        <label for="message">Send Notification</label>
-        <input type="text" class="form-control" id="message" name="message" placeholder="Enter notification message" required />
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Send Notification</h2>
+    <form method="post" id="notificationForm" asp-controller="Notifications" asp-action="SendNotification">
+        <div class="form-group">
+            <input type="text" class="form-control" id="message" name="message" placeholder="Enter notification message" required />
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg mt-3">Send Notification</button>
+        </div>
+    </form>
+</div>
+
+
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Success</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" onclick="$('#successModal').modal('hide');">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Notification sent successfully!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="$('#successModal').modal('hide');">Close</button>
+            </div>
+        </div>
     </div>
-    <button type="submit" class="btn btn-primary">Send</button>
-</form>
+</div>
+
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            // Display success modal when the form is submitted
+            $('#notificationForm').on('submit', function (event) {
+                event.preventDefault(); // Prevent default form submission
+
+                // Send the form data via AJAX
+                const formData = $(this).serialize();
+
+                $.post(this.action, formData, function (response) {
+                    // Show success modal
+                    $('#successModal').modal('show');
+
+                    // Reset the form
+                    $('#notificationForm')[0].reset();
+                }).fail(function () {
+                    alert('Error sending notification. Please try again.');
+                });
+            });
+        });
+    </script>
+}
 
