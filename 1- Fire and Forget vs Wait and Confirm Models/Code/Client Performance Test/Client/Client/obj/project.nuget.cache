@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ACeIJ1AkBu0y15EoiDvPZ9mWS1b5BHsyazb9bSVW+C7QoNhBAJN/M43EzEHNSZ5ETh13++eZTPFvuTC0hOeklQ==",
+  "success": true,
+  "projectFilePath": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\Code\\1- Performance vs Data Safety\\Client\\Client\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahm7d\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

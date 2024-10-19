@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Core.dll": {}
+        }
+      },
+      "Domain.DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Core": "1.0.0",
+          "Domain.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.DomainServices.dll": {}
+        }
+      },
+      "Domain.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Core/Domain.Core.csproj",
+      "msbuildProject": "../Domain.Core/Domain.Core.csproj"
+    },
+    "Domain.DomainServices/1.0.0": {
+      "type": "project",
+      "path": "../Domain.DomainServices/Domain.DomainServices.csproj",
+      "msbuildProject": "../Domain.DomainServices/Domain.DomainServices.csproj"
+    },
+    "Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Interfaces/Domain.Interfaces.csproj",
+      "msbuildProject": "../Domain.Interfaces/Domain.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Domain.Core >= 1.0.0",
+      "Domain.DomainServices >= 1.0.0",
+      "Domain.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ahm7d\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.UseCases\\Domain.UseCases.csproj",
+      "projectName": "Domain.UseCases",
+      "projectPath": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.UseCases\\Domain.UseCases.csproj",
+      "packagesPath": "C:\\Users\\ahm7d\\.nuget\\packages\\",
+      "outputPath": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.UseCases\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ahm7d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.Core\\Domain.Core.csproj"
+            },
+            "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.DomainServices\\Domain.DomainServices.csproj": {
+              "projectPath": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.DomainServices\\Domain.DomainServices.csproj"
+            },
+            "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+              "projectPath": "C:\\_My\\Tutorials\\Github\\Network-Engineering-For-Developers\\1- Fire and Forget vs Wait and Confirm Models\\Code\\Wait and Confirm Example\\Application\\Domain\\Domain.Interfaces\\Domain.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

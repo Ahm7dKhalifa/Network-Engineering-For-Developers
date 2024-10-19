@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Domain.UseCases/1.0.0": {
+        "dependencies": {
+          "Domain.Core": "1.0.0",
+          "Domain.DomainServices": "1.0.0",
+          "Domain.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Domain.UseCases.dll": {}
+        }
+      },
+      "Domain.Core/1.0.0": {
+        "runtime": {
+          "Domain.Core.dll": {}
+        }
+      },
+      "Domain.DomainServices/1.0.0": {
+        "dependencies": {
+          "Domain.Core": "1.0.0",
+          "Domain.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Domain.DomainServices.dll": {}
+        }
+      },
+      "Domain.Interfaces/1.0.0": {
+        "dependencies": {
+          "Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain.UseCases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.DomainServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

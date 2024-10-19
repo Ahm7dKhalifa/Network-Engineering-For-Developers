@@ -1,0 +1,40 @@
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.csproj.AssemblyReference.cache
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.AssemblyInfoInputs.cache
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.AssemblyInfo.cs
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.csproj.CoreCompileInputs.cache
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.sourcelink.json
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.UseCases.deps.json
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.UseCases.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Core.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.DomainServices.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Interfaces.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Core.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.DomainServices.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Interfaces.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.csproj.CopyComplete
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\refint\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Performance Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\ref\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.UseCases.deps.json
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.UseCases.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Core.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.DomainServices.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Interfaces.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Core.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.DomainServices.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\bin\Debug\net8.0\Domain.Interfaces.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.csproj.AssemblyReference.cache
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.AssemblyInfoInputs.cache
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.AssemblyInfo.cs
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.csproj.CoreCompileInputs.cache
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.sourcelink.json
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.csproj.CopyComplete
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\refint\Domain.UseCases.dll
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\Domain.UseCases.pdb
+C:\_My\Tutorials\Github\Network-Engineering-For-Developers\Code\1- Performance vs Data Safety\Data Safety Example\Application\Domain\Domain.UseCases\obj\Debug\net8.0\ref\Domain.UseCases.dll
