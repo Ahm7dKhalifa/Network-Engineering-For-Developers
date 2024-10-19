@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Sports News Web Application</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/js/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SportsNewsWebApp.styles.css" asp-append-version="true" />
     <link href="~/css/font-awesome/css/all.min.css" rel="stylesheet" />
@@ -17,6 +17,7 @@
             width: 500px; /* Increased width */
             height : 200px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
         }
 
         .toast-header {
@@ -39,6 +40,19 @@
             top: 20px;
             right: 20px;
             z-index: 1055;
+        }
+
+        .carousel-item img {
+            height: 500px; /* Set a fixed height for all images */
+            object-fit: cover; /* Ensure the images cover the entire area without distortion */
+        }
+
+        .carousel-caption {
+            bottom: 0; /* Keep captions at the bottom */
+        }
+
+        .bg-primary {
+            opacity: 0.8; /* Optional: Adjust opacity for a softer look */
         }
 
     </style>
@@ -73,8 +87,8 @@
             &copy; 2024 - SportsNewsWebApp
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/jquery/jquery.js"></script>
+    <script src="~/js/bootstrap/js/bootstrap.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

@@ -10,5 +10,17 @@
       "library": "popper.js@2.11.8",
       "destination": "wwwroot/js/popper.js/"
     }
-  ]
+  ,
+{
+  "provider": "cdnjs",
+  "library": "jquery@3.7.1",
+  "destination": "wwwroot/js/jquery/"
+}
+,
+{
+  "provider": "cdnjs",
+  "library": "bootstrap@5.3.3",
+  "destination": "wwwroot/js/bootstrap/"
+}
+]
 }
