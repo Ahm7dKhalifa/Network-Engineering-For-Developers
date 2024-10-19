@@ -85,3 +85,6 @@
 /1- Fire and Forget vs Wait and Confirm Models/Code/Wait and Confirm Example/Application/Infrastructures/Logs.Serilog/obj
 /1- Fire and Forget vs Wait and Confirm Models/Code/Wait and Confirm Example/Application/Infrastructures/MessageQueue.RabbitMQ/bin/Debug/net8.0
 /1- Fire and Forget vs Wait and Confirm Models/Code/Wait and Confirm Example/Application/Infrastructures/MessageQueue.RabbitMQ/obj
+/3- Real Time Communications Models/1- Polling Models/Code/Short Polling Model/SportsNewsWebApp/.vs/SportsNewsWebApp
+/3- Real Time Communications Models/1- Polling Models/Code/Short Polling Model/SportsNewsWebApp/bin/Debug/net8.0
+/3- Real Time Communications Models/1- Polling Models/Code/Short Polling Model/SportsNewsWebApp/obj
