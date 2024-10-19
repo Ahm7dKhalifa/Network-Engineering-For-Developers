@@ -1,0 +1,72 @@
+﻿<script>
+    // Request notification permission on page load
+    if (Notification.permission !== "granted") {
+        Notification.requestPermission();
+    }
+
+    // This function polls the server every 5 seconds to check for new notifications.
+    setInterval(function () {
+        $.ajax({
+            url: '/Notifications/GetLatestNotifications', // This hits the endpoint to get notifications
+            type: 'GET',
+            success: function (data) {
+                if (data.length > 0) {
+                    // Clear existing notifications in the modal body
+                    $('#notificationModal .modal-body').html('');
+
+                    // Loop through notifications and show each
+                    data.forEach(function (notification) {
+                        // Display in Bootstrap modal (append to the modal body)
+                        $('#notificationModal .modal-body').append(
+                            '<div class="notification-message">' +
+                            '<i class="fa fa-bell" style="color: red;"></i> ' + // Add alarm icon
+                            '<span>' + notification.message + '</span>' +
+                            '</div>'
+                        );
+                        $('#notificationModal').modal('show');
+
+                        // Display desktop notification if granted
+                        if (Notification.permission === "granted") {
+                            new Notification('New Notification', {
+                                body: notification.message,
+                                icon: '/path/to/alarm-icon.png' // Optionally, add an icon to desktop notifications
+                            });
+                        }
+                    });
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching notifications:', error);
+            }
+        });
+    }, 10000); // Polling interval (10 seconds)
+
+    // Clear the modal content when the modal is closed
+    $('#notificationModal').on('hidden.bs.modal', function () {
+        $('#notificationModal .modal-body').html(''); // Clear the modal content
+    });
+</script>
+
+<!-- Modal HTML structure -->
+<div class="modal fade" id="notificationModal" tabindex="-1" role="dialog" aria-labelledby="notificationModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="notificationModalLabel">
+          <i class="fa fa-bell" style="color: red;"></i> New Notifications <!-- Add alarm icon -->
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Notifications will be appended here -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

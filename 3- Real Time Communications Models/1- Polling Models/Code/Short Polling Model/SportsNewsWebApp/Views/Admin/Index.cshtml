@@ -1,0 +1,10 @@
+﻿<h1>Admin Panel</h1>
+
+<form method="post" asp-controller="Notifications" asp-action="SendNotification">
+    <div class="form-group">
+        <label for="message">Send Notification</label>
+        <input type="text" class="form-control" id="message" name="message" placeholder="Enter notification message" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
