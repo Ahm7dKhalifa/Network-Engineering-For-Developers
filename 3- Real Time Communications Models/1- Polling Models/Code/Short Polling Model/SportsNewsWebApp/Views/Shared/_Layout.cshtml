@@ -3,10 +3,45 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SportsNewsWebApp</title>
+    <title>@ViewData["Title"] - Sports News Web Application</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SportsNewsWebApp.styles.css" asp-append-version="true" />
+    <link href="~/css/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="~/css/font-awesome/css/all.min.css" rel="stylesheet" />
+    <style>
+        .toast {
+            background-color: #f8f9fa; /* Light background */
+            border-left: 5px solid red; /* Red left border to indicate importance */
+            font-size: 1.1em; /* Larger font size */
+            padding: 10px;
+            width: 350px; /* Increased width */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .toast-header {
+            background-color: #005CBF; /* Pepsi Blue header */
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .toast-body {
+            font-family: Arial, sans-serif;
+        }
+
+        .toast .close {
+            color: white; /* Make the close button white */
+        }
+
+        #toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1055;
+        }
+
+    </style>
 </head>
 <body>
     <header>
